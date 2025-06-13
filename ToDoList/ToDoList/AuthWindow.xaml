@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:ToDoList"
         mc:Ignorable="d"
         Title="Вход в ToDoList" Height="350" Width="400"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen" Icon="/microsoft-to-do-logo.png">
     <Grid Margin="20">
         <StackPanel>
             <TextBlock Text="Вход в систему" FontSize="24" FontWeight="Bold" 

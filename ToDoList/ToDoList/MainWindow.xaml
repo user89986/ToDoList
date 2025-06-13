@@ -10,7 +10,7 @@
         mc:Ignorable="d"
         Title="ToDo List" Height="700" Width="1100"
         WindowStartupLocation="CenterScreen"
-        Style="{DynamicResource MaterialDesignWindow}">
+        Style="{DynamicResource MaterialDesignWindow}" Icon="/microsoft-to-do-logo.png">
 
     <Window.Resources>
         <ResourceDictionary>

@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:ToDoList"
         mc:Ignorable="d"
          Title="Редактирование задачи" Height="560" Width="350"
-        WindowStartupLocation="CenterOwner">
+        WindowStartupLocation="CenterOwner" Icon="/microsoft-to-do-logo.png">
     <Grid Margin="10">
         <StackPanel>
             <TextBox materialDesign:HintAssist.Hint="Название"
