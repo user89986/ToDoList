@@ -15,6 +15,7 @@ namespace ToDoList.ViewModels
         private readonly Window _window;
         private readonly TagService _tagService;
         private readonly Models.Task _originalTask;
+       
 
         public Models.Task Task { get; set; }
         public ObservableCollection<Category> Categories { get; set; }
@@ -138,6 +139,7 @@ namespace ToDoList.ViewModels
 
             _window.DialogResult = true;
             _window.Close();
+          
         }
 
         [RelayCommand]

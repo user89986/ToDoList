@@ -26,9 +26,7 @@ namespace ToDoList
             {
                 Credential = GoogleCredential.FromFile("todolist-4b5ce-firebase-adminsdk-fbsvc-e5046e05ec.json"),
             });
-
-            base.OnStartup(e);
-           
+            base.OnStartup(e);  
         }
         private void ConfigureServices(IServiceCollection services)
         {

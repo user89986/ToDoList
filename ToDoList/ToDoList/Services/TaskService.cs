@@ -86,7 +86,7 @@ namespace ToDoList.Services
                         taskFromDb.Tags = taskCopy.Tags;
 
                         _db.SaveChanges();
-
+                         _syncService.FullSyncAsync();
                         var index = tasks.IndexOf(task);
                         if (index >= 0)
                         {
